@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Offers</title>
+  <link rel="stylesheet" href="/css/offers.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header__top">
+      <div class="header__logo">
+        <div class="header__logo--bag"><a style="color: #FFFFFF;" href="/index.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+        <h1 class="header__logo--title"><a style="color: #8CB7F5;" href="/index.html">Brand</a></h1>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search">
+        <select name="" id="" class="header__input--select">
+          <option value="">All category</option>
+        </select>
+        <button class="header__input--btn"><a class="link" href="">Search</a></button>
+      </div>
+      <div class="header__icons">
+        <div class="header__icons--icon"><i class="fa-solid fa-user"></i> 
+        <span class="header__icons--span">Profile</span>
+        </div>
+        <div class="header__icons--icon">
+          <i class="fa-solid fa-message"></i>
+          <span>Message</span>
+        </div>
+        <div class="header__icons--icon">
+          <i class="fa-solid fa-heart"></i>
+          <span>Orders</span>
+        </div>
+        <div onclick="openCart.hidden ^= 1" class="header__icons--icon" class="header__icons--icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>My cart</span>
+        </div>
+      </div>
+      </div>
+      <div class="header__bottom">
+        <nav>
+          <ul class="header__bottom--links">
+            <li onclick="ochil.hidden ^= 1"><i class="fa-solid fa-bars"></i> All category</li>
+            <li><a href="" class="header__links--link">Hot offers</a></li>
+            <li><a href="" class="header__links--link">Gift boxes</a></li>
+            <li><a href="" class="header__links--link">Projects</a></li>
+            <li><a href="" class="header__links--link">Menu item</a></li>
+            <select class="header__bottom--select" name="" id="">
+              <option value="">Help</option>
+            </select>
+          </ul>
+        </nav>
+        <div class="header__bottom--usd">
+          <select class="header__bottom--select" name="" id="">
+            <option value="">English,USD</option>
+          </select>
+         <div class="header__bootom--flag">
+          <div><span>Ship to</span></div> 
+          <div><img class="header__bootom--flag" src="/images/icon.png" alt=""></div> <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <section id="openCart" hidden class="cart">
+        <div class="cart__title">
+          <h1>My cart (3)</h1>
+        </div>
+        <div class="live">
+        <div class="cart__box">
+          <div class="cart__box--card">
+            <img src="/images/img-group.png" alt="">
+            <div class="cart__box--text">
+              <div class="cart__text--number">
+                <h3 class="cart__text--title">T-shirts with multiple colors, for men and lady</h3>
+                <strong>$78.99</strong>
+                </div>
+<div class="cart__text--subtitle">
+                  <p class="cart__text--p">Size: medium, Color: blue,  Material: Plastic
+Seller: Artel Market</p>
+<select class="cart__text--select" name="" id="">
+  <option value="">Qty: 9</option>
+</select>
+</div>
+              <div class="cart__box--btns">
+                <button class="cart__box--btn red">Remoove</button>
+                <button class="cart__box--btn blue">Save for later</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart__box--card">
+            <img src="/images/img-group (1).png" alt="">
+            <div class="cart__box--text">
+              <div class="cart__text--number">
+                <h3>T-shirts with multiple colors, for men and lady</h3>
+                <strong>$78.99</strong>
+                </div>
+<div class="cart__text--subtitle">
+                  <p class="cart__text--p">Size: medium, Color: blue,  Material: Plastic
+Seller: Artel Market</p>
+<select class="cart__text--select" name="" id="">
+  <option value="">Qty: 9</option>
+</select>
+</div>
+              <div class="cart__box--btns">
+                <button class="cart__box--btn red">Remoove</button>
+                <button class="cart__box--btn blue">Save for later</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart__box--card">
+            <img src="/images/img-group (2).png" alt="">
+            <div class="cart__box--text">
+              <div class="cart__text--number">
+                <h3>T-shirts with multiple colors, for men and lady</h3>
+                <strong>$78.99</strong>
+                </div>
+<div class="cart__text--subtitle">
+                  <p class="cart__text--p">Size: medium, Color: blue,  Material: Plastic
+Seller: Artel Market</p>
+<select class="cart__text--select" name="" id="">
+  <option value="">Qty: 9</option>
+</select>
+</div>
+              <div class="cart__box--btns">
+                <button class="cart__box--btn red">Remoove</button>
+                <button class="cart__box--btn blue">Save for later</button>
+              </div>
+            </div>
+          </div>
+          <div class="card__text-btns">
+            <button class="card__text-btn"><a style="color: #fff;" href=""><i class="fa-solid fa-arrow-left"></i>Back to shop</a></button>
+            <button class="card__text-button"><a style="color: #0D6EFD;" href="">Remove all</a></button>
+          </div>
+        </div>
+        <div class="paynet">
+          <div class="paynet__coupon">
+            <h3 class="paynet__coupon--title">Have a coupon?</h3>
+            <div class="paynet__coupon--input">
+              <input class="paynet__coupon--next" type="text" placeholder="Add coupon">
+              <button class="paynet__coupon--btn"><a style="color: #0D6EFD;" href="">Apply</a></button>
+            </div>
+          </div>
+          <div class="paynet__total"> 
+            <div class="paynet__total--text">
+              <p>Subtotal:</p> <span>$1403.97</span>
+            </div>
+          <div class="paynet__total--text">
+            <p>Discount:</p> <span style="color: red;">- $60.00</span>
+          </div>
+          <div class="paynet__total--text">
+            <p>Tax:</p> <span style="color: #00B517;">+ $14.00</span>
+          </div>
+          <div class="line"></div>
+          <div class="paynet__total--text">
+            <p>Total</p> <h2>$1357.97</h2>
+            </div>
+            <button class="paynet__total--button"><a style="color: #fff;" href="">Checkout</a></button>
+            <div class="paynet__total--img"> 
+              <img src="/images/payment.png" alt="">
+              <img src="/images/Logo (1).png" alt="">
+              <img src="/images/payment (1).png" alt="">
+               <img src="/images/payment (2).png" alt="">
+                <img src="/images/payment (3).png" alt="">
+              <p></p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <div id="ochil" hidden class="category">
+      <div class="category__menu">
+      <nav>
+      <ul class="category__menu--links">
+  <div class="category__links--box color"><li><a class="category__links--link" href="">Automobiles</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Clothes and wear</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Home interiors</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Computer and tech</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Tools, equipments</a></li></div>
+  <div class="category__links--box"> <li><a class="category__links--link" href="">Sports and outdoor</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Animal and pets</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Machinery tools</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">More category</a></li></div>
+</ul>
+</nav>
+<div class="category__menu--img">
+  <h2>Latest trending</h2>
+  <h1 class="category__menu--h1">Electronic items</h1>
+  <button class="category__menu--btn"><a class="links" href="">Learn more</a></button>
+</div>
+<div class="category__menu--text">
+<div class="category__menu--user">
+  <div class="category__user--text">
+    <img src="/images/Avatar (2).png" alt="">
+    <p class="category__user--subtitle">Hi, user let’s get stated</p>
+    </div>
+    <button class="category__user--btn oneBtn"><a class="link" href="">Join now</a></button>
+    <button class="category__user--btn twoBtn"><a style="color: #0D6EFD;" href="">Log in</a></button>
+  </div>
+  <div class="category__menu--us">
+    <p class="category__text--subtitle">Get US $10 off with a new supplier live in the</p>
+  </div>
+  <div class="category__menu--send">
+    <p class="category__text--subtitle">Send quotes with supplier preferences</p>
+  </div>
+</div>
+</div>
+</div>
+  <div class="header__nav">
+    <p style="color: #8B96A5;">Home > Clothing > Men’s wear > Summer clothing</p>
+  </div>
+    </header>
+    <section class="category__hero">
+      <div class="category__left">
+        <div class="category__left--card">
+          <div class="category__left--one">
+            <h3 class="category__left--title">Category</h3>
+            <span><i class="fa-solid fa-angle-up"></i></span>
+          </div>
+          <div class="category__left--gap">
+            <p>Mobile accessory</p>
+            <p>Electronics</p>
+            <p>Smartphones </p>
+            <p>Modern tech</p>
+            <span style="color: #0D6EFD;">See all</span>
+          </div>
+        </div>
+        <div class="category__left--card">
+          <div class="category__left--one">
+            <h3 class="category__left--title">Brands</h3>
+            <span><i class="fa-solid fa-angle-up"></i></span>
+          </div>
+          <div class="category__left--gap">
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Samsung</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Apple</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Huawei</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Pocco</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Lenovo</span>
+            </div>
+            <span style="color: #0D6EFD;">See all</span>
+          </div>
+        </div>
+        <div class="category__left--card">
+          <div class="category__left--one">
+            <h3 class="category__left--title">Features</h3>
+            <span><i class="fa-solid fa-angle-up"></i></span>
+          </div>
+          <div class="category__left--gap">
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Metallic</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Plastic cover</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>8GB Ram</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Super power</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>Large Memory</span>
+            </div>
+            <span style="color: #0D6EFD;">See all</span>
+          </div>
+        </div>
+        <div class="category__left--card">
+          <div class="category__left--gap">
+            <div class="category__left--one">
+            <h3 class="category__left--title">Price range</h3>
+            <span><i class="fa-solid fa-angle-up"></i></span>
+          </div>
+          <input type="range">
+          <div class="category__left--second">
+            <div class="category__left--min">
+              <span>Min</span>
+              <div class="category__left--box">
+                <span>0</span>
+              </div>
+            </div>
+            <div class="category__left--min">
+              <span>Max</span>
+             
+              <div class="category__left--box">
+                <span>999999</span>
+              </div>
+             </div>
+          </div>
+          <button class="category__left--btn"><a style="color: #0D6EFD;" href="">Apply</a></button>
+          </div>
+        </div>
+        <div class="category__left--card">
+          <div class="category__left--gap">
+            <div class="category__left--one">
+            <h3 class="category__left--title">Price range</h3>
+            <span><i class="fa-solid fa-angle-up"></i></span>
+          </div>
+          <div class="category__left--rounds">
+            <div class="category__left--round"></div>
+            <span>Any</span>
+          </div>
+          <div class="category__left--rounds">
+            <div class="category__left--round"></div>
+            <span>Refurbished</span>
+          </div>
+          <div class="category__left--rounds">
+            <div class="category__left--round"></div>
+            <span>Brand new</span>
+          </div>
+          <div class="category__left--rounds">
+            <div class="category__left--round"></div>
+            <span>Old items</span>
+          </div>
+          </div>
+        </div>
+        <div class="category__left--card">
+          <div class="category__left--one">
+            <h3 class="category__left--title">Ratings</h3>
+            <span><i class="fa-solid fa-angle-up"></i></span>
+          </div>
+          <div class="category__left--gap">
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>⭐⭐⭐⭐⭐</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>⭐⭐⭐⭐</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>⭐⭐⭐</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>⭐⭐</span>
+            </div>
+            <div class="category__left--smart">
+              <input type="checkbox">
+              <span>⭐</span>
+            </div>
+            <span style="color: #0D6EFD;">See all</span>
+          </div>
+        </div>
+      </div>
+      <div class="category__right">
+        <div class="category__right--head">
+          <p>12,911 items in <strong>Mobile accessory</strong></p>
+          <div class="category__right-nav">
+            <div class="category__right--check">
+              <input type="checkbox">
+              <span>Verified only</span>
+            </div>
+            <select class="category__right--select" name="" id="">
+              <option value="">Featured</option>
+            </select>
+            <div class="category__right--icons">
+              <div class="category__right--icon"><i class="fa-brands fa-microsoft"></i></div>
+              <div class="category__right--icon"><i class="fa-solid fa-bars"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="category__right--mobile">
+          <img src="/images/image 33 (1).png" alt="">
+          <div class="category__right--text">
+            <div class="category__right--heart">
+              <h3>Canon Cmera EOS 2000, Black 10x zoom</h3>
+              <div class="category__heart--icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <p class="category__right--p"><strong>$998.00</strong> <del style="color: #8B96A5;">$1128.00</del></p>
+            <div class="category__right--stars">
+              <span>⭐⭐⭐⭐ 7.5</span><span>•</span><span style="color: #8B96A5;">154 orders</span><span>•</span><span style="color: #00B517;">Free Shipping</span>
+            </div>
+            <p class="category__right--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua</p>
+<button class="category__right--btn"><a style="color: #0D6EFD;" href="">View details</a></button>
+          </div>
+        </div>
+        <div class="category__right--mobile">
+          <img src="/images/image 23 (1).png" alt="">
+          <div class="category__right--text">
+            <div class="category__right--heart">
+              <h3>Canon Cmera EOS 2000, Black 10x zoom</h3>
+              <div class="category__heart--icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <p class="category__right--p"><strong>$998.00</strong> <del style="color: #8B96A5;">$1128.00</del></p>
+            <div class="category__right--stars">
+              <span>⭐⭐⭐⭐ 7.5</span><span>•</span><span style="color: #8B96A5;">154 orders</span><span>•</span><span style="color: #00B517;">Free Shipping</span>
+            </div>
+            <p class="category__right--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua</p>
+<button class="category__right--btn"><a style="color: #0D6EFD;" href="">View details</a></button>
+          </div>
+        </div>
+        <div class="category__right--mobile">
+          <img src="/images/image 32 (1).png" alt="">
+          <div class="category__right--text">
+            <div class="category__right--heart">
+              <h3>Canon Cmera EOS 2000, Black 10x zoom</h3>
+              <div class="category__heart--icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <p class="category__right--p"><strong>$998.00</strong> <del style="color: #8B96A5;">$1128.00</del></p>
+            <div class="category__right--stars">
+              <span>⭐⭐⭐⭐ 7.5</span><span>•</span><span style="color: #8B96A5;">154 orders</span><span>•</span><span style="color: #00B517;">Free Shipping</span>
+            </div>
+            <p class="category__right--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua</p>
+<button class="category__right--btn"><a style="color: #0D6EFD;" href="">View details</a></button>
+          </div>
+        </div>
+        <div class="category__right--mobile">
+          <img src="/images/image 34 (2).png" alt="">
+          <div class="category__right--text">
+            <div class="category__right--heart">
+              <h3>Canon Cmera EOS 2000, Black 10x zoom</h3>
+              <div class="category__heart--icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <p class="category__right--p"><strong>$998.00</strong> <del style="color: #8B96A5;">$1128.00</del></p>
+            <div class="category__right--stars">
+              <span>⭐⭐⭐⭐ 7.5</span><span>•</span><span style="color: #8B96A5;">154 orders</span><span>•</span><span style="color: #00B517;">Free Shipping</span>
+            </div>
+            <p class="category__right--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua</p>
+<button class="category__right--btn"><a style="color: #0D6EFD;" href="">View details</a></button>
+          </div>
+        </div>
+        <div class="category__right--mobile">
+          <img src="/images/image 35 (2).png" alt="">
+          <div class="category__right--text">
+            <div class="category__right--heart">
+              <h3>Canon Cmera EOS 2000, Black 10x zoom</h3>
+              <div class="category__heart--icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <p class="category__right--p"><strong>$998.00</strong> <del style="color: #8B96A5;">$1128.00</del></p>
+            <div class="category__right--stars">
+              <span>⭐⭐⭐⭐ 7.5</span><span>•</span><span style="color: #8B96A5;">154 orders</span><span>•</span><span style="color: #00B517;">Free Shipping</span>
+            </div>
+            <p class="category__right--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua</p>
+<button class="category__right--btn"><a style="color: #0D6EFD;" href="">View details</a></button>
+          </div>
+        </div>
+        <div class="category__right--mobile">
+          <img src="/images/image 86 (2).png" alt="">
+          <div class="category__right--text">
+            <div class="category__right--heart">
+              <h3>Canon Cmera EOS 2000, Black 10x zoom</h3>
+              <div class="category__heart--icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+            </div>
+            <p class="category__right--p"><strong>$998.00</strong> <del style="color: #8B96A5;">$1128.00</del></p>
+            <div class="category__right--stars">
+              <span>⭐⭐⭐⭐ 7.5</span><span>•</span><span style="color: #8B96A5;">154 orders</span><span>•</span><span style="color: #00B517;">Free Shipping</span>
+            </div>
+            <p class="category__right--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua</p>
+<button class="category__right--btn"><a style="color: #0D6EFD;" href="">View details</a></button>
+          </div>
+        </div>
+        <div class="category__right--bottom">
+        <select class="category__bottom--select" name="" id="">
+          <option value="">Show 10</option>
+        </select>
+        <div class="category__bottom--boxes">
+          <div class="category__bottom--box"><i class="fa-solid fa-angle-left"></i></div>
+          <div class="category__bottom--box">1</div>
+          <div class="category__bottom--box">2</div>
+          <div class="category__bottom--box">3</div>
+          <div class="category__bottom--box"><i class="fa-solid fa-angle-right"></i></div>
+        </div>
+      </div>
+      </div>    
+    </section>
+    <section class="from">
+      <div class="from__text">
+        <h2 class="from__text--title">Subscribe on our newsletter</h2>
+        <p class="from__text--title">Get daily news on upcoming offers from many suppliers all over the world</p>
+        <div class="from__text--search">
+          <div class="from__text--input">
+            <i class="fa-regular fa-envelope"></i>
+            <input class="from__input--email" type="email" placeholder="Email">
+          </div>
+          <button class="from__text--btn"><a class="link" href="">Subscribe</a></button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__top">
+        <div class="footer__top--logo">
+          <div class="header__logo">
+        <div class="header__logo--bag"><i class="fa-solid fa-bag-shopping"></i></div>
+        <h1 class="header__logo--title">Brand</h1>
+      </div>
+      <p class="footer__logo--subtitle">Best information about the company gies here but now lorem ipsum is</p>
+      <div class="footer__top--icons">
+        <div class="footer__icons--icon"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-twitter"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-youtube"></i></div>
+      </div>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">About</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">About Us</a></li>
+            <li><a href="" class="footer__links--link">Find store</a></li>
+            <li><a href="" class="footer__links--link">Categories</a></li>
+            <li><a href="" class="footer__links--link">Blogs</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">Partnership</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">About Us</a></li>
+            <li><a href="" class="footer__links--link">Find store</a></li>
+            <li><a href="" class="footer__links--link">Categories</a></li>
+            <li><a href="" class="footer__links--link">Blogs</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">Information</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">Help Center</a></li>
+            <li><a href="" class="footer__links--link">Money Refund</a></li>
+            <li><a href="" class="footer__links--link">Shipping</a></li>
+            <li><a href="" class="footer__links--link">Contact us</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">For users</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">Login</a></li>
+            <li><a href="" class="footer__links--link">Register</a></li>
+            <li><a href="" class="footer__links--link">Settings</a></li>
+            <li><a href="" class="footer__links--link">My Orders</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">Get app</h3>
+          <div class="smart third">
+            <img src="/images/Subtract.png" alt="">
+          </div>
+          <div class="smart">
+            <img src="/images/Logo.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <strong class="footer__bottom--strong">© 2023 Ecommerce. </strong>
+        <div class="footer__bottom--flag">
+          <img src="/images/icon (4).png" alt="">
+          <span>English <i class="fa-solid fa-angle-up"></i></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+ 
+</body>
+</html>

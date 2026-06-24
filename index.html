@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exam-figma</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header__top">
+      <div class="header__logo">
+        <div class="header__logo--bag"><i class="fa-solid fa-bag-shopping"></i></div>
+        <h1 class="header__logo--title">Brand</h1>
+      </div>
+      <div class="header__input">
+        <input class="header__input--search" type="text" placeholder="Search">
+        <select name="" id="" class="header__input--select">
+          <option value="">All category</option>
+        </select>
+        <button class="header__input--btn"><a class="link" href="">Search</a></button>
+      </div>
+      <div class="header__icons">
+        <div class="header__icons--icon"><i class="fa-solid fa-user"></i> 
+        <span class="header__icons--span">Profile</span>
+        </div>
+        <div class="header__icons--icon">
+          <i class="fa-solid fa-message"></i>
+          <span>Message</span>
+        </div>
+        <div class="header__icons--icon">
+          <i class="fa-solid fa-heart"></i>
+          <span>Orders</span>
+        </div>
+        <div onclick="openCart.hidden ^= 1" class="header__icons--icon">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span>My cart</span>
+        </div>
+      </div>
+      </div>
+      <div class="header__bottom">
+        <nav>
+          <ul class="header__bottom--links">
+            <li onclick="ochil.hidden ^= 1"><i class="fa-solid fa-bars"></i> All category</li>
+            <li><a href="/offers.html" class="header__links--link">Hot offers</a></li>
+            <li><a href="" class="header__links--link">Gift boxes</a></li>
+            <li><a href="" class="header__links--link">Projects</a></li>
+            <li><a href="" class="header__links--link">Menu item</a></li>
+            <select class="header__bottom--select" name="" id="">
+              <option value="">Help</option>
+            </select>
+          </ul>
+        </nav>
+        <div class="header__bottom--usd">
+          <select class="header__bottom--select" name="" id="">
+            <option value="">English,USD</option>
+          </select>
+         <div class="header__bootom--flag">
+          <div><span>Ship to</span></div> 
+          <div><img class="header__bootom--flag" src="/images/icon.png" alt=""></div> <i class="fa-solid fa-angle-down"></i>
+          </div>
+        </div>
+      </div>
+      <section id="openCart" hidden class="cart">
+        <div class="cart__title">
+          <h1>My cart (3)</h1>
+        </div>
+        <div class="live">
+        <div class="cart__box">
+          <div class="cart__box--card">
+            <img src="/images/img-group.png" alt="">
+            <div class="cart__box--text">
+              <div class="cart__text--number">
+                <h3 class="cart__text--title">T-shirts with multiple colors, for men and lady</h3>
+                <strong>$78.99</strong>
+                </div>
+<div class="cart__text--subtitle">
+                  <p class="cart__text--p">Size: medium, Color: blue,  Material: Plastic
+Seller: Artel Market</p>
+<select class="cart__text--select" name="" id="">
+  <option value="">Qty: 9</option>
+</select>
+</div>
+              <div class="cart__box--btns">
+                <button class="cart__box--btn red">Remoove</button>
+                <button class="cart__box--btn blue">Save for later</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart__box--card">
+            <img src="/images/img-group (1).png" alt="">
+            <div class="cart__box--text">
+              <div class="cart__text--number">
+                <h3>T-shirts with multiple colors, for men and lady</h3>
+                <strong>$78.99</strong>
+                </div>
+<div class="cart__text--subtitle">
+                  <p class="cart__text--p">Size: medium, Color: blue,  Material: Plastic
+Seller: Artel Market</p>
+<select class="cart__text--select" name="" id="">
+  <option value="">Qty: 9</option>
+</select>
+</div>
+              <div class="cart__box--btns">
+                <button class="cart__box--btn red">Remoove</button>
+                <button class="cart__box--btn blue">Save for later</button>
+              </div>
+            </div>
+          </div>
+          <div class="cart__box--card">
+            <img src="/images/img-group (2).png" alt="">
+            <div class="cart__box--text">
+              <div class="cart__text--number">
+                <h3>T-shirts with multiple colors, for men and lady</h3>
+                <strong>$78.99</strong>
+                </div>
+<div class="cart__text--subtitle">
+                  <p class="cart__text--p">Size: medium, Color: blue,  Material: Plastic
+Seller: Artel Market</p>
+<select class="cart__text--select" name="" id="">
+  <option value="">Qty: 9</option>
+</select>
+</div>
+              <div class="cart__box--btns">
+                <button class="cart__box--btn red">Remoove</button>
+                <button class="cart__box--btn blue">Save for later</button>
+              </div>
+            </div>
+          </div>
+          <div class="card__text-btns">
+            <button class="card__text-btn"><a style="color: #fff;" href=""><i class="fa-solid fa-arrow-left"></i>Back to shop</a></button>
+            <button class="card__text-button"><a style="color: #0D6EFD;" href="">Remove all</a></button>
+          </div>
+        </div>
+        <div class="paynet">
+          <div class="paynet__coupon">
+            <h3 class="paynet__coupon--title">Have a coupon?</h3>
+            <div class="paynet__coupon--input">
+              <input class="paynet__coupon--next" type="text" placeholder="Add coupon">
+              <button class="paynet__coupon--btn"><a style="color: #0D6EFD;" href="">Apply</a></button>
+            </div>
+          </div>
+          <div class="paynet__total"> 
+            <div class="paynet__total--text">
+              <p>Subtotal:</p> <span>$1403.97</span>
+            </div>
+          <div class="paynet__total--text">
+            <p>Discount:</p> <span style="color: red;">- $60.00</span>
+          </div>
+          <div class="paynet__total--text">
+            <p>Tax:</p> <span style="color: #00B517;">+ $14.00</span>
+          </div>
+          <div class="line"></div>
+          <div class="paynet__total--text">
+            <p>Total</p> <h2>$1357.97</h2>
+            </div>
+            <button class="paynet__total--button"><a style="color: #fff;" href="">Checkout</a></button>
+            <div class="paynet__total--img"> 
+              <img src="/images/payment.png" alt="">
+              <img src="/images/Logo (1).png" alt="">
+              <img src="/images/payment (1).png" alt="">
+               <img src="/images/payment (2).png" alt="">
+                <img src="/images/payment (3).png" alt="">
+              <p></p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <div id="ochil" hidden class="category">
+      <div class="category__menu">
+      <nav>
+      <ul class="category__menu--links">
+  <div class="category__links--box color"><li><a class="category__links--link" href="">Automobiles</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Clothes and wear</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Home interiors</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Computer and tech</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Tools, equipments</a></li></div>
+  <div class="category__links--box"> <li><a class="category__links--link" href="">Sports and outdoor</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Animal and pets</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">Machinery tools</a></li></div>
+  <div class="category__links--box"><li><a class="category__links--link" href="">More category</a></li></div>
+</ul>
+</nav>
+<div class="category__menu--img">
+  <h2>Latest trending</h2>
+  <h1 class="category__menu--h1">Electronic items</h1>
+  <button class="category__menu--btn"><a class="links" href="">Learn more</a></button>
+</div>
+<div class="category__menu--text">
+<div class="category__menu--user">
+  <div class="category__user--text">
+    <img src="/images/Avatar (2).png" alt="">
+    <p class="category__user--subtitle">Hi, user let’s get stated</p>
+    </div>
+    <button class="category__user--btn oneBtn"><a class="link" href="">Join now</a></button>
+    <button class="category__user--btn twoBtn"><a style="color: #0D6EFD;" href="">Log in</a></button>
+  </div>
+  <div class="category__menu--us">
+    <p class="category__text--subtitle">Get US $10 off with a new supplier live in the</p>
+  </div>
+  <div class="category__menu--send">
+    <p class="category__text--subtitle">Send quotes with supplier preferences</p>
+  </div>
+</div>
+  
+</div>
+</div>
+    </header>
+    <section class="deals">
+      <div class="deals__offers">
+        <h3>Deals and offers</h3>
+        <p class="deals__offers--subtitle">Hygiene equipments</p>
+        <div class="deals__offers--clocks">
+          <div class="deals__closks--number">
+            <h3 class="link">04</h3>
+            <p class="link">Days</p>
+          </div>
+          <div class="deals__closks--number">
+            <h3 class="link">13</h3>
+            <p class="link">Hour</p>
+          </div>
+          <div class="deals__closks--number">
+            <h3 class="link">34</h3>
+            <p class="link">Min</p>
+          </div>
+          <div class="deals__closks--number">
+            <h3 class="link">56</h3>
+            <p class="link">Sec</p>
+          </div>
+        </div>
+        </div>
+        <div class="deals__box">
+          <img src="/images/image 35.png" alt="">
+          <h3 class="deals__box--h3">Smart watches</h3>
+          <div class="deals__box--skitka"><strong>-25%</strong></div>
+        </div>
+        <div class="deals__box">
+          <img src="/images/image 34.png" alt="">
+          <h3 class="deals__box--h3">Laptops</h3>
+          <div class="deals__box--skitka"><strong>-15%</strong></div>
+        </div>
+        <div class="deals__box">
+          <img src="/images/image 29.png" alt="">
+          <h3 class="deals__box--h3">GoPro cameras</h3>
+          <div class="deals__box--skitka"><strong>-40%</strong></div>
+        </div>
+        <div class="deals__box">
+          <img src="/images/image 28.png" alt="">
+          <h3 class="deals__box--h3">Headphones</h3>
+          <div class="deals__box--skitka"><strong>-25%</strong></div>
+        </div>
+        <div class="deals__box">
+          <img src="/images/image 23.png" alt="">
+          <h3 class="deals__box--h3">Canon camreras</h3>
+          <div class="deals__box--skitka"><strong>-25%</strong></div>
+        </div>
+    </section>
+    <section class="home">
+      <div class="home__img">
+        <h3 class="home__img--title">Home and outdoor</h3>
+        <button class="home__img--btn"><a class="links" href="">Source now</a></button>
+      </div>
+      <div class="home__soft">
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Soft chairs</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/rasm.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Sofa & chair</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/image 94.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Kitchen dishe</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/image 93.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Smart watche</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/image 90.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Kitchen mixer</h4>
+            <p class="home__soft--subtitle">From USD 100</p>
+        </div>
+        <img src="/images/image 88.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Blenders</h4>
+            <p class="home__soft--subtitle">From USD 39</p>
+        </div>
+        <img src="/images/image 87.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Home appliance</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/rasm (1).png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Coffee maker</h4>
+            <p class="home__soft--subtitle">From USD 10</p>
+        </div>
+        <img src="/images/image 89.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="gadgets">
+      <div class="gadgets__img">
+        <h3 class="home__img--title">Consumer electronics and gadgets</h3>
+        <button class="home__img--btn"><a class="links" href="">Source now</a></button>
+      </div>
+      <div class="home__soft">
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Smart watches</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/image 35 (1).png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Cameras</h4>
+            <p class="home__soft--subtitle">From USD 89</p>
+        </div>
+        <img src="images/image 28 (1).png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Headphones</h4>
+            <p class="home__soft--subtitle">From USD 10</p>
+        </div>
+        <img src="/images/image 86.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Smart watches</h4>
+            <p class="home__soft--subtitle">From USD 90</p>
+        </div>
+        <img src="/images/image 85.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Gaming set</h4>
+            <p class="home__soft--subtitle">From USD 35</p>
+        </div>
+        <img src="images/image 29 (1).png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Laptops & PC</h4>
+            <p class="home__soft--subtitle">From USD 340</p>
+        </div>
+        <img src="/images/image 34 (1).png">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Smartphones</h4>
+            <p class="home__soft--subtitle">From USD 19</p>
+        </div>
+        <img src="/images/image 32.png" alt="">
+        </div>
+        <div class="home__soft--card">
+          <div class="home__soft--text">
+            <h4 class="home__soft--title">Electric kattle</h4>
+            <p class="home__soft--subtitle">From USD 240</p>
+        </div>
+        <img src="/images/image 33.png" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="easy">
+      <div class="easy__title">
+        <h1 class="easy__title--h1">An easy way to send requests to all suppliers</h1>
+      <p class="easy__title--subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+      </div>
+      <div class="easy__text">
+        <h2 class="easy__text--h2">Send quote to suppliers</h2>
+        <div class="easy__text--need">
+          <p class="easy__text--subtitle">What item you need?</p>
+        </div>
+        <input class="easy__text--input" type="text" placeholder="Type more details">
+        <div class="easy__text--second">
+          <div class="easy__text--quantity">
+          <p>Quantity</p>
+        </div>
+        <select class="easy__text--select" name="" id="">
+          <option value="">Pcs</option>
+        </select>
+        </div>
+        <button class="easy__text--btn"><a class="link" href="">Send inquiry</a></button>
+      </div>
+    </section>
+    <section class="title">
+      <div>
+        <h1>Recommended items</h1>
+      </div>
+    </section>
+    <div class="products"></div>
+    <section class="title">
+      <div>
+        <h1>Our extra services</h1>
+      </div>
+    </section>
+    <section class="extra">
+      <div class="extra__card">
+        <img src="/images/Mask group (15).png" alt="">
+        <div class="extra__card--text">
+          <h3 class="extra__card--title">Source from Industry Hubs</h3>
+          <div class="extra__card--icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+      </div>
+      <div class="extra__card">
+        <img src="/images/Mask group (16).png" alt="">
+        <div class="extra__card--text">
+          <h3 class="extra__card--title">Customize Your Products</h3>
+          <div class="extra__card--icon"><i class="fa-solid fa-box"></i></div>
+        </div>
+      </div>
+      <div class="extra__card">
+        <img src="/images/Mask group (17).png" alt="">
+        <div class="extra__card--text">
+          <h3 class="extra__card--title">Fast, reliable shipping by ocean or air</h3>
+          <div class="extra__card--icon"><i class="fa-solid fa-paper-plane"></i></div>
+        </div>
+      </div>
+      <div class="extra__card">
+        <img src="/images/Mask group (18).png" alt="">
+        <div class="extra__card--text">
+          <h3 class="extra__card--title">Product monitoring and inspection</h3>
+          <div class="extra__card--icon"><i class="fa-solid fa-shield-halved"></i></div>
+        </div>
+      </div>
+    </section>
+    <section class="title">
+      <div>
+        <h1>Suppliers by region</h1>
+      </div>
+    </section>
+    <section class="region">
+      <div class="extra__top"><div class="region__card">
+        <img src="/images/AE@2x.png" alt="">
+        <div class="region__card--text">
+          <h3>Arabic Emirates</h3>
+          <h4 class="region__card--h4">shopname.ae</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/icon (1).png" alt="">
+        <div class="region__card--text">
+          <h3>Australia</h3>
+          <h4 class="region__card--h4">shopname</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/icon (2).png" alt="">
+        <div class="region__card--text">
+          <h3>United States</h3>
+          <h4 class="region__card--h4">shopname.ae</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/RU@2x.png" alt="">
+        <div class="region__card--text">
+          <h3>Russia</h3>
+          <h4 class="region__card--h4">shopname.ru</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/IT@2x.png" alt="">
+        <div class="region__card--text">
+          <h3>Italy</h3>
+          <h4 class="region__card--h4">shopname.it</h4>
+        </div>
+      </div></div>
+      <div class="extra__bottom">
+        <div class="region__card">
+        <img src="/images/DK@2x.png" alt="">
+        <div class="region__card--text">
+          <h3>Denmark</h3>
+          <h4 class="region__card--h4">denmark.com.dk</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/FR@2x.png" alt="">
+        <div class="region__card--text">
+          <h3>France</h3>
+          <h4 class="region__card--h4">shopname.com.fr</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/AE@2x (1).png" alt="">
+        <div class="region__card--text">
+          <h3>Arabic Emirates</h3>
+          <h4 class="region__card--h4">shopname.ae</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/CN@2x.png" alt="">
+        <div class="region__card--text">
+          <h3>China</h3>
+          <h4 class="region__card--h4">shopname.ae</h4>
+        </div>
+      </div>
+      <div class="region__card">
+        <img src="/images/icon (3).png" alt="">
+        <div class="region__card--text">
+          <h3>Great Britain</h3>
+          <h4 class="region__card--h4">shopname.co.uk</h4>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="from">
+      <div class="from__text">
+        <h2 class="from__text--title">Subscribe on our newsletter</h2>
+        <p class="from__text--title">Get daily news on upcoming offers from many suppliers all over the world</p>
+        <div class="from__text--search">
+          <div class="from__text--input">
+            <i class="fa-regular fa-envelope"></i>
+            <input class="from__input--email" type="email" placeholder="Email">
+          </div>
+          <button class="from__text--btn"><a class="link" href="">Subscribe</a></button>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer__top">
+        <div class="footer__top--logo">
+          <div class="header__logo">
+        <div class="header__logo--bag"><i class="fa-solid fa-bag-shopping"></i></div>
+        <h1 class="header__logo--title">Brand</h1>
+      </div>
+      <p class="footer__logo--subtitle">Best information about the company gies here but now lorem ipsum is</p>
+      <div class="footer__top--icons">
+        <div class="footer__icons--icon"><i class="fa-brands fa-facebook-f"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-twitter"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-linkedin-in"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="footer__icons--icon"><i class="fa-brands fa-youtube"></i></div>
+      </div>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">About</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">About Us</a></li>
+            <li><a href="" class="footer__links--link">Find store</a></li>
+            <li><a href="" class="footer__links--link">Categories</a></li>
+            <li><a href="" class="footer__links--link">Blogs</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">Partnership</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">About Us</a></li>
+            <li><a href="" class="footer__links--link">Find store</a></li>
+            <li><a href="" class="footer__links--link">Categories</a></li>
+            <li><a href="" class="footer__links--link">Blogs</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">Information</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">Help Center</a></li>
+            <li><a href="" class="footer__links--link">Money Refund</a></li>
+            <li><a href="" class="footer__links--link">Shipping</a></li>
+            <li><a href="" class="footer__links--link">Contact us</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">For users</h3>
+          <nav>
+          <ul class="footer__top--links">
+            <li><a href="" class="footer__links--link">Login</a></li>
+            <li><a href="" class="footer__links--link">Register</a></li>
+            <li><a href="" class="footer__links--link">Settings</a></li>
+            <li><a href="" class="footer__links--link">My Orders</a></li>
+          </ul>
+          </nav>
+        </div>
+        <div class="footer__top--card">
+          <h3 class="footer__card--title">Get app</h3>
+          <div class="smart third">
+            <img src="/images/Subtract.png" alt="">
+          </div>
+          <div class="smart">
+            <img src="/images/Logo.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <strong class="footer__bottom--strong">© 2023 Ecommerce. </strong>
+        <div class="footer__bottom--flag">
+          <img src="/images/icon (4).png" alt="">
+          <span>English <i class="fa-solid fa-angle-up"></i></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/js/index.js"></script>
+</body>
+</html>

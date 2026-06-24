@@ -1,0 +1,372 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.detail{
+    width:1200px;
+    margin:50px auto;
+
+    display:flex;
+    gap:30px;
+}
+
+.left{
+    width:30%;
+}
+
+.middle{
+    width:45%;
+}
+
+.right{
+    width:25%;
+}
+
+.big-img{
+    width:100%;
+    height:400px;
+    object-fit:contain;
+    border:1px solid lightgray;
+}
+
+.small-images{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.small-images img{
+    width:60px;
+    height:60px;
+    object-fit:contain;
+    border:1px solid lightgray;
+}
+
+.prices{
+    display:flex;
+    margin:30px 0;
+}
+
+.prices div{
+    background:#FFF0DF;
+    padding:20px;
+    border-right:1px solid lightgray;
+}
+
+.middle p{
+    margin-top:20px;
+}
+
+.right{
+    border:1px solid lightgray;
+    padding:20px;
+    height:250px;
+}
+
+.send{
+    width:100%;
+    padding:15px;
+    background:#127FFF;
+    color:white;
+    border:none;
+    margin-top:30px;
+}
+
+.profile{
+    width:100%;
+    padding:15px;
+    margin-top:15px;
+}
+
+Umumiy sahifa taqsimoti */
+
+/* 1. Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Umumiy sahifa taqsimoti */
+.detail {
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    gap: 40px;
+    font-family: Arial, sans-serif;
+    color: #1c1c1c;
+}
+
+/* 3. Chap taraf - Rasmlar bloki */
+.left {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.big-img {
+    width: 100%;
+    height: 380px;
+    object-fit: contain;
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.small-images {
+    display: flex;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.thumb-img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* 4. O'rta taraf - Ma'lumotlar bloki */
+.middle {
+    flex: 1;
+}
+
+.status-stock {
+    color: #00b545;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.middle h1 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+/* Reytinglar qatori */
+.rating-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #8b96a5;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.rating-num {
+    color: #ff9017;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: #dbdbdb;
+    border-radius: 50%;
+}
+
+/* Narxlar bloki (Och sariq fon) */
+.prices {
+    display: flex;
+    background: #fff7ee;
+    border-radius: 6px;
+    padding: 15px;
+    gap: 40px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-box h2 {
+    font-size: 18px;
+    color: #1c1c1c;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.price-box .price-red {
+    color: #fa3434;
+    font-weight: 700;
+}
+
+.price-box p {
+    font-size: 13px;
+    color: #606060;
+    margin: 0;
+}
+
+/* Xarakteristikalar jadvali */
+.details-table {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-size: 15px;
+}
+
+.table-row {
+    display: flex;
+}
+
+.table-row .label {
+    width: 140px;
+    color: #8b96a5;
+}
+
+.table-row .value {
+    color: #505050;
+}
+
+.details-table hr {
+    border: none;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* 5. O'ng taraf - Sotuvchi kartasi */
+.right {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.supplier-card {
+    border: 1px solid #e4e4e4;
+    border-radius: 6px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.supplier-info {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.supplier-avatar {
+    width: 48px;
+    height: 48px;
+    background: #c5f1fa;
+    color: #4ca7b5;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.sup-title {
+    margin: 0;
+    color: #1c1c1c;
+    font-size: 14px;
+}
+
+.supplier-info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sup-hr {
+    border: none;
+    border-top: 1px solid #e4e4e4;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.supplier-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #8b96a5;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.supplier-details i {
+    width: 20px;
+    text-align: center;
+}
+
+/* 6. Tugmalar stillari */
+.send {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.send:hover {
+    background: #0b5ed7;
+}
+
+.profile {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+    color: #0d6efd;
+    border: 1px solid #e4e4e4;
+    transition: 0.2s;
+}
+
+.profile:hover {
+    background: #f8f9fa;
+}
+
+/* Save for later tugmasi */
+.save-later {
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    background: white;
+    color: #0d6efd;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: 0.2s;
+}
+
+/* Orqaga qaytish tugmasi stili */
+.back-btn {
+    
+    align-items: center;
+    gap: 8px;
+    color: #0d6efd; /* Moviy brend rangi */
+    text-decoration: none; /* Ostidagi chizig'ini olib tashlaydi */
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px; /* Rasm bilan orasidagi masofa */
+}
