@@ -4,7 +4,6 @@ const targetId = localStorage.getItem("id");
 const product = products.find(item => String(item.id) === String(targetId));
 const detailContainer = document.querySelector(".detail");
 
-
 if (!product) {
     detailContainer.innerHTML = `
         <div class="error-message">
@@ -13,13 +12,13 @@ if (!product) {
         </div>
     `;
 } else {
-    // 4. Figma maketiga mos ravishda to'liq render qilish
+    
     detailContainer.innerHTML = `
         <div class="left">
             <a href="index.html" class="back-btn">
                 <i class="fa-solid fa-arrow-left"></i> Back to shop
             </a>
-
+    
             <img class="big-img" src="${product.image}" alt="${product.name}">
             
             <div class="small-images">
@@ -59,7 +58,7 @@ if (!product) {
                     <p>700+ pcs</p>
                 </div>
             </div>
-
+                
             <div class="details-table">
                 <div class="table-row">
                     <span class="label">Price:</span>
@@ -125,18 +124,5 @@ if (!product) {
                 <i class="fa-regular fa-heart"></i> Save for later
             </button>
         </div>
-    `;
+    `;}
 
-    const bigImg = document.querySelector(".big-img");
-    const thumbnails = document.querySelectorAll(".thumb-img");
-
-    thumbnails.forEach((thumb, index) => {
-        if(index === 0) thumb.style.border = "2px solid #0d6efd";
-        
-        thumb.addEventListener("click", (e) => {
-    bigImg.src = e.target.src; // e.target bosilgan elementni bildiradi
-    thumbnails.forEach(t => t.style.border = "1px solid #e4e4e4");
-    e.target.style.border = "2px solid #0d6efd";
-});
-    });
-}

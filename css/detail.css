@@ -1,95 +1,10 @@
-/* *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-.detail{
-    width:1200px;
-    margin:50px auto;
-
-    display:flex;
-    gap:30px;
-}
-
-.left{
-    width:30%;
-}
-
-.middle{
-    width:45%;
-}
-
-.right{
-    width:25%;
-}
-
-.big-img{
-    width:100%;
-    height:400px;
-    object-fit:contain;
-    border:1px solid lightgray;
-}
-
-.small-images{
-    display:flex;
-    gap:10px;
-    margin-top:20px;
-}
-
-.small-images img{
-    width:60px;
-    height:60px;
-    object-fit:contain;
-    border:1px solid lightgray;
-}
-
-.prices{
-    display:flex;
-    margin:30px 0;
-}
-
-.prices div{
-    background:#FFF0DF;
-    padding:20px;
-    border-right:1px solid lightgray;
-}
-
-.middle p{
-    margin-top:20px;
-}
-
-.right{
-    border:1px solid lightgray;
-    padding:20px;
-    height:250px;
-}
-
-.send{
-    width:100%;
-    padding:15px;
-    background:#127FFF;
-    color:white;
-    border:none;
-    margin-top:30px;
-}
-
-.profile{
-    width:100%;
-    padding:15px;
-    margin-top:15px;
-}
-
-Umumiy sahifa taqsimoti */
-
-/* 1. Global reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 2. Umumiy sahifa taqsimoti */
+
 .detail {
     max-width: 1200px;
     margin: 50px auto;
@@ -99,7 +14,6 @@ Umumiy sahifa taqsimoti */
     color: #1c1c1c;
 }
 
-/* 3. Chap taraf - Rasmlar bloki */
 .left {
     width: 380px;
     display: flex;
@@ -132,7 +46,7 @@ Umumiy sahifa taqsimoti */
     cursor: pointer;
 }
 
-/* 4. O'rta taraf - Ma'lumotlar bloki */
+
 .middle {
     flex: 1;
 }
